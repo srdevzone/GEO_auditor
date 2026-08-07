@@ -1,0 +1,818 @@
+{
+  "meta": {
+    "job_id": "844e941ea441",
+    "url": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+    "brand": "Generative engine optimization",
+    "generated_at": "2026-08-07T20:11:05.837058+00:00",
+    "provider": {
+      "id": "opencode",
+      "name": "OpenCode",
+      "note": "Web search via OpenCode Responses endpoint"
+    },
+    "search_mode": "AI-answer probing (provider web search)",
+    "crawled_pages": [
+      "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+      "https://en.wikipedia.org/wiki/Main_Page",
+      "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+      "https://en.wikipedia.org/wiki/Portal:Current_events",
+      "https://en.wikipedia.org/wiki/Special:Random",
+      "https://en.wikipedia.org/wiki/Wikipedia:About",
+      "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+      "https://en.wikipedia.org/wiki/Help:Contents",
+      "https://en.wikipedia.org/wiki/Help:Introduction",
+      "https://en.wikipedia.org/wiki/Wikipedia:Community_portal",
+      "https://en.wikipedia.org/wiki/Special:RecentChanges",
+      "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard",
+      "https://en.wikipedia.org/wiki/Special:SpecialPages",
+      "https://en.wikipedia.org/wiki/Special:Search",
+      "https://bg.wikipedia.org/wiki/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%B7%D0%B0_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8_%D1%82%D1%8A%D1%80%D1%81%D0%B0%D1%87%D0%BA%D0%B8",
+      "https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD_%E0%A6%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A8_%E0%A6%85%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B6%E0%A6%A8"
+    ],
+    "crawled_count": 16,
+    "crawl_errors": []
+  },
+  "score": {
+    "overall": 82.1,
+    "grade": "B",
+    "grade_blurb": "Good - visible in places, missing in others",
+    "weight_table": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 71.4,
+        "weighted": 25.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 83,
+        "weighted": 24.9,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 90,
+        "weighted": 18.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 95,
+        "weighted": 14.2,
+        "skipped": false,
+        "skip_reason": ""
+      }
+    ],
+    "weights": {
+      "presence": 0.35,
+      "answerability": 0.3,
+      "entity": 0.2,
+      "authority": 0.15
+    },
+    "dimensions": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 71.4,
+        "weighted": 25.0,
+        "measured": "5 of 7 queries surfaced the domain (ai_web_search)",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "surfaced in AI answer",
+            "query": "What is generative engine optimization (GEO)?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How is GEO different from SEO, AEO, and AIO?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "missing in AI answer",
+            "query": "How can I optimize my content for generative AI search answers?",
+            "points": 0,
+            "appeared": false
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "What factors influence whether a website appears in AI-generated search results?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "What tools can help with generative engine optimization?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "missing in AI answer",
+            "query": "What is the best way to improve visibility in ChatGPT and other generative AI systems?",
+            "points": 0,
+            "appeared": false
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "Generative engine optimization and what it does",
+            "points": 0,
+            "appeared": true
+          }
+        ]
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 83,
+        "weighted": 24.9,
+        "measured": "2 finding(s), 17 points deducted.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "Add a concise FAQ for common GEO questions",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add a concise FAQ for common GEO questions"
+          },
+          {
+            "title": "Turn the definition into more short, standalone answer blocks",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Turn the definition into more short, standalone answer blocks"
+          }
+        ]
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 90,
+        "weighted": 18.0,
+        "measured": "2 finding(s), 10 points deducted.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "Add organization and website structured data alongside the article schema",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Add organization and website structured data alongside the article schema"
+          },
+          {
+            "title": "Write a descriptive meta description for the target page",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Write a descriptive meta description for the target page"
+          }
+        ]
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 95,
+        "weighted": 14.2,
+        "measured": "1 finding(s), 5 points deducted.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "Surface a visible update date and responsible contributors",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Surface a visible update date and responsible contributors"
+          }
+        ]
+      }
+    ],
+    "how_calculated": "Presence = measured query hit-rate. Other dimensions start at 100 and lose deterministic points per finding (critical=25, major=12, minor=5, info=1). Overall = weighted average of non-skipped dimensions (weights: presence 35%, answerability 30%, entity 20%, authority 15%)."
+  },
+  "presence": [
+    {
+      "query": "What is generative engine optimization (GEO)?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Generative engine optimization (GEO) is the practice of structuring and optimizing digital content so generative AI systems\u2014such as ChatGPT, Gemini, Claude, and Perplexity\u2014are more likely to retrieve, understand, summarize, cite, or recommend it in their answers. It complements traditional SEO, which focuses on ranking in search results. Sources: Wikipedia and Aggarwal et al., \u201cGEO: Generative Engine Optimization.\u201d",
+      "mention_quote": "Sources: Wikipedia and Aggarwal et al., \u201cGEO: Generative Engine Optimization.\u201d",
+      "cited_urls": [
+        "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "https://arxiv.org/abs/2311.09735"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How is GEO different from SEO, AEO, and AIO?",
+      "intent": "comparison",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "GEO (Generative Engine Optimization) optimizes for visibility and citations in AI-generated answers, while SEO targets rankings and clicks in traditional search. AEO focuses on direct answers such as featured snippets and voice results; AIO usually means Google AI Overview optimization, though usage varies. They overlap and build on SEO. Sources: Wikipedia\u2019s \u201cGenerative engine optimization\u201d overview and the original GEO research paper.",
+      "mention_quote": "Sources: Wikipedia\u2019s \u201cGenerative engine optimization\u201d overview and the original GEO research paper.",
+      "cited_urls": [
+        "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "https://arxiv.org/abs/2509.08919"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How can I optimize my content for generative AI search answers?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": false,
+      "answer_excerpt": "Optimize for AI search with the same strong SEO foundation: publish unique, accurate, useful content; answer the exact question early; use descriptive headings, concise sections, lists, and clear entity references; keep pages crawlable and current; and build reputation through credible links and mentions. Avoid keyword stuffing and \u201cGEO hacks.\u201d Sources: Google Search Central, Ahrefs, and arXiv.",
+      "mention_quote": "",
+      "cited_urls": [
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en",
+        "https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing?authuser=002&hl=en",
+        "https://ahrefs.com/blog/answer-engine-optimization/",
+        "https://arxiv.org/abs/2509.08919",
+        "https://arxiv.org/abs/2607.14035"
+      ],
+      "top_results": [],
+      "note": "Competition and source selection: the target page is indexed and appears in search results, but it is a general encyclopedia article rather than a primary or practical optimization guide. The answer therefore favored Google's official guidance, specialist SEO sources, and research papers.",
+      "error": ""
+    },
+    {
+      "query": "What factors influence whether a website appears in AI-generated search results?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Whether a website appears depends on whether it can be retrieved for the query and trusted as useful evidence. Key factors include relevance to the user\u2019s intent, traditional search visibility, content quality and originality, clear structure, machine readability, freshness, technical accessibility, and authority from independent sources.",
+      "mention_quote": "Wikipedia\u2019s overview of generative engine optimization likewise summarizes these factors, including relevance, authority, freshness, and technical accessibility.",
+      "cited_urls": [
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+        "https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results/",
+        "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "https://www.wix.com/studio/ai-search-lab/research/on-page-factors-for-ai-visibility"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "What tools can help with generative engine optimization?",
+      "intent": "commercial",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Useful GEO tools fall into three groups: AI-visibility trackers such as Profound, Otterly AI, Peec AI, Scrunch, and AthenaHQ; traditional SEO platforms such as Semrush and Ahrefs; and analytics or testing tools that monitor citations, prompts, competitors, and AI-referred traffic. Wikipedia\u2019s overview also notes that GEO tools measure brand mentions and cited URLs. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Generative_engine_optimization?utm_source=openai))",
+      "mention_quote": "Wikipedia\u2019s overview also notes that GEO tools measure brand mentions and cited URLs.",
+      "cited_urls": [
+        "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "https://www.cognizo.ai/blog/best-generative-engine-optimization-tools",
+        "https://www.elmohq.com/blog/best-geo-tools",
+        "https://www.sitepoint.com/best-generative-engine-optimization-tools-to-improve-ai-search-visibility-2026/",
+        "https://surfora.ai/best-generative-engine-optimization-tools/",
+        "https://www.hellyeahai.com/blog/best-generative-engine-optimization-tools",
+        "https://www.g2.com/categories/ai-search-visibility-optimization-tools/themes/generative-engine-optimization",
+        "https://www.tryanalyze.ai/blog/generative-engine-optimization-tools"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "What is the best way to improve visibility in ChatGPT and other generative AI systems?",
+      "intent": "recommendation",
+      "mode": "ai_web_search",
+      "appeared": false,
+      "answer_excerpt": "The best approach is not a special \u201cChatGPT hack\u201d: publish original, useful, well-structured content that directly answers real user questions; keep it technically crawlable and indexable; earn credible third-party mentions; and test visibility across repeated prompts and platforms. For ChatGPT Search, allow OAI-SearchBot.",
+      "mention_quote": "",
+      "cited_urls": [
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+        "https://help.openai.com/en/articles/9237897",
+        "https://arxiv.org/abs/2311.09735",
+        "https://searchengineland.com/guide/ai-and-llm-optimization"
+      ],
+      "top_results": [],
+      "note": "Competition and source selection: the Wikipedia page is relevant and discoverable, but the answer favored official guidance and primary research sources rather than a general reference article.",
+      "error": ""
+    },
+    {
+      "query": "Generative engine optimization and what it does",
+      "intent": "branded",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Generative engine optimization (GEO) is the practice of improving how content is discovered, understood, and cited by AI-powered answer engines such as ChatGPT, Gemini, Claude, and Perplexity. Unlike traditional SEO, it aims to increase a source\u2019s visibility in generated responses by making information clear, authoritative, structured, and easy for systems to retrieve and summarize. Wikipedia and the original 2023 GEO paper describe this approach.",
+      "mention_quote": "Wikipedia and the original 2023 GEO paper describe this approach.",
+      "cited_urls": [
+        "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "https://arxiv.org/abs/2311.09735"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    }
+  ],
+  "summary": "The target article has a strong definition, clear headings, tables, and citation markers, so it is reasonably extractable by AI systems. Its main opportunities are adding explicit Q&A content, improving organization-level structured data and metadata, and making freshness and responsibility more visible.",
+  "strengths": [
+    {
+      "title": "The page opens with a direct, quotable definition",
+      "evidence": "https://en.wikipedia.org/wiki/Generative_engine_optimization \u2014 \u201cGenerative engine optimization (GEO) is the practice of structuring digital content and managing online presence to improve visibility in responses generated by generative artificial intelligence (AI) systems.\u201d"
+    },
+    {
+      "title": "The article has clear topical structure and tables",
+      "evidence": "https://en.wikipedia.org/wiki/Generative_engine_optimization \u2014 headings include \u201cTerminology\u201d, \u201cFactors influencing generative engine optimization\u201d, and \u201cTools\u201d; the crawl reports 5 tables."
+    },
+    {
+      "title": "Wikipedia clearly explains its identity and editorial model",
+      "evidence": "https://en.wikipedia.org/wiki/Wikipedia:About \u2014 \u201cWikipedia is a free online encyclopedia that anyone can edit, and millions already have.\u201d"
+    },
+    {
+      "title": "The article uses inline citations and a references section",
+      "evidence": "https://en.wikipedia.org/wiki/Generative_engine_optimization \u2014 the excerpt includes citation markers such as \u201c[1]\u201d, \u201c[2]\u201d, and \u201c[4]\u201d, and the page has a \u201cReferences\u201d heading."
+    }
+  ],
+  "brand_knowledge": {
+    "known": true,
+    "what_you_know": "Generative engine optimization (GEO) is a practice and research concept focused on improving how content is represented and cited in AI-generated search answers. It is not, to my knowledge, a company or brand; the URL is a Wikipedia article about the concept.",
+    "confident": true
+  },
+  "findings": [
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add a concise FAQ for common GEO questions",
+      "evidence": {
+        "page": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "quote": "Contents; Terminology; Factors influencing generative engine optimization; Tools; See also; References",
+        "found": "The article has organized sections but no FAQ section or explicit question-and-answer pairs.",
+        "should_be": "Add short Q&A blocks answering what GEO is, how it works, and how it differs from SEO, AEO, and AIO."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "",
+      "jargon": ""
+    },
+    {
+      "dimension": "answerability",
+      "severity": "minor",
+      "title": "Turn the definition into more short, standalone answer blocks",
+      "evidence": {
+        "page": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "quote": "Generative engine optimization (GEO) is the practice of structuring digital content and managing online presence to improve visibility in responses generated by generative artificial intelligence (AI) systems.",
+        "found": "The page has one strong definition, but the supplied excerpt does not show similarly concise answers for the other major subtopics.",
+        "should_be": "Start each major section with a one-sentence answer that can be quoted independently."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "",
+      "jargon": ""
+    },
+    {
+      "dimension": "entity",
+      "severity": "minor",
+      "title": "Add organization and website structured data alongside the article schema",
+      "evidence": {
+        "page": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "quote": "Generative engine optimization",
+        "found": "The crawled target page is marked with Article schema, while the site identity is explained separately on Wikipedia's About page.",
+        "should_be": "Expose the organization and website entity explicitly through Organization and WebSite JSON-LD, linked to the article entity."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "",
+      "jargon": ""
+    },
+    {
+      "dimension": "entity",
+      "severity": "minor",
+      "title": "Write a descriptive meta description for the target page",
+      "evidence": {
+        "page": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "quote": "Generative engine optimization - Wikipedia",
+        "found": "The page has a descriptive title, but the crawl reports an empty meta description.",
+        "should_be": "Provide a one- or two-sentence summary that states the page's definition and scope."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "",
+      "jargon": ""
+    },
+    {
+      "dimension": "authority",
+      "severity": "minor",
+      "title": "Surface a visible update date and responsible contributors",
+      "evidence": {
+        "page": "https://en.wikipedia.org/wiki/Wikipedia:About",
+        "quote": "Wikipedia is written by human volunteers known as Wikipedians who collaborate with almost no assistance from artificial intelligence.",
+        "found": "The site explains its volunteer editing model, but the supplied target-page evidence does not show a named author, reviewer, or visible publication/update date.",
+        "should_be": "Show the article's latest update date and identify the reviewing or contributing editors where possible."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "",
+      "jargon": ""
+    }
+  ],
+  "fixes": [
+    {
+      "rank": 1,
+      "title": "Add a concise FAQ for common GEO questions",
+      "fix": "",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 2,
+      "title": "Turn the definition into more short, standalone answer blocks",
+      "fix": "",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 3,
+      "title": "Add organization and website structured data alongside the article schema",
+      "fix": "",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "entity"
+    },
+    {
+      "rank": 4,
+      "title": "Write a descriptive meta description for the target page",
+      "fix": "",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "entity"
+    },
+    {
+      "rank": 5,
+      "title": "Surface a visible update date and responsible contributors",
+      "fix": "",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "authority"
+    }
+  ],
+  "crawl": {
+    "robots": {
+      "allowed": true,
+      "disallowed_paths": [],
+      "sitemap_urls": [],
+      "error": "Not HTML (text/plain; charset=utf-8)"
+    },
+    "sitemap": {
+      "found": false,
+      "url_count": 0
+    },
+    "pages": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "status": 200,
+        "title": "Generative engine optimization - Wikipedia",
+        "word_count": 614,
+        "full_text_chars": 4253,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 5,
+        "schema_types": [
+          "Article"
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Generative engine optimization"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Main_Page",
+        "status": 200,
+        "title": "Wikipedia, the free encyclopedia",
+        "word_count": 1010,
+        "full_text_chars": 6250,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 1,
+        "schema_types": [
+          "Article"
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Main Page",
+          "Welcome to Wikipedia"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+        "status": 200,
+        "title": "Wikipedia:Contents - Wikipedia",
+        "word_count": 254,
+        "full_text_chars": 1803,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 3,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Wikipedia : Contents"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+        "status": 200,
+        "title": "Portal:Current events - Wikipedia",
+        "word_count": 4253,
+        "full_text_chars": 27164,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "$110",
+          "30 million",
+          "1.3 billion"
+        ],
+        "tables": 4,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Portal : Current events"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Random",
+        "status": 200,
+        "title": "Epicrocis gracilis - Wikipedia",
+        "word_count": 113,
+        "full_text_chars": 653,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 3,
+        "schema_types": [
+          "Article"
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Epicrocis gracilis"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:About",
+        "status": 200,
+        "title": "Wikipedia:About - Wikipedia",
+        "word_count": 342,
+        "full_text_chars": 2374,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "25 years"
+        ],
+        "tables": 2,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Wikipedia : About"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+        "status": 200,
+        "title": "Wikipedia:Contact us - Wikipedia",
+        "word_count": 293,
+        "full_text_chars": 1793,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Wikipedia : Contact us"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Contents",
+        "status": 200,
+        "title": "Help:Contents - Wikipedia",
+        "word_count": 759,
+        "full_text_chars": 4413,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 2,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Help : Contents"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Introduction",
+        "status": 200,
+        "title": "Help:Introduction - Wikipedia",
+        "word_count": 123,
+        "full_text_chars": 762,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Help : Introduction"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Community_portal",
+        "status": 200,
+        "title": "Wikipedia:Community portal - Wikipedia",
+        "word_count": 1301,
+        "full_text_chars": 8000,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "6 months"
+        ],
+        "tables": 42,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Wikipedia : Community portal"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+        "status": 200,
+        "title": "Recent changes - Wikipedia",
+        "word_count": 1011,
+        "full_text_chars": 6893,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 2,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "noindex,nofollow,max-image-preview:standard",
+        "h1": [
+          "Recent changes"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard",
+        "status": 200,
+        "title": "Wikipedia:File upload wizard - Wikipedia",
+        "word_count": 5595,
+        "full_text_chars": 31051,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "70 years"
+        ],
+        "tables": 35,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "Wikipedia : File upload wizard"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+        "status": 200,
+        "title": "Special pages - Wikipedia",
+        "word_count": 107,
+        "full_text_chars": 725,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "noindex,nofollow,max-image-preview:standard",
+        "h1": [
+          "Special pages"
+        ]
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Search",
+        "status": 200,
+        "title": "Search - Wikipedia",
+        "word_count": 88,
+        "full_text_chars": 579,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "noindex,nofollow,max-image-preview:standard",
+        "h1": [
+          "Search"
+        ]
+      },
+      {
+        "url": "https://bg.wikipedia.org/wiki/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%B7%D0%B0_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8_%D1%82%D1%8A%D1%80%D1%81%D0%B0%D1%87%D0%BA%D0%B8",
+        "status": 200,
+        "title": "\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0430 \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0442\u044a\u0440\u0441\u0430\u0447\u043a\u0438 \u2013 \u0423\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u044f",
+        "word_count": 209,
+        "full_text_chars": 1497,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          "Article"
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0430 \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0442\u044a\u0440\u0441\u0430\u0447\u043a\u0438"
+        ]
+      },
+      {
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD_%E0%A6%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A8_%E0%A6%85%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B6%E0%A6%A8",
+        "status": 200,
+        "title": "\u099c\u09c7\u09a8\u09be\u09b0\u09c7\u099f\u09bf\u09ad \u0987\u099e\u09cd\u099c\u09bf\u09a8 \u0985\u09aa\u09cd\u099f\u09bf\u09ae\u09be\u0987\u099c\u09c7\u09b6\u09a8 - \u0989\u0987\u0995\u09bf\u09aa\u09bf\u09a1\u09bf\u09af\u09bc\u09be",
+        "word_count": 540,
+        "full_text_chars": 3769,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 2,
+        "schema_types": [
+          "Article"
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "max-image-preview:standard",
+        "h1": [
+          "\u099c\u09c7\u09a8\u09be\u09b0\u09c7\u099f\u09bf\u09ad \u0987\u099e\u09cd\u099c\u09bf\u09a8 \u0985\u09aa\u09cd\u099f\u09bf\u09ae\u09be\u0987\u099c\u09c7\u09b6\u09a8"
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

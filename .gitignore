@@ -1,0 +1,107 @@
+# ── Secrets ────────────────────────────────────────────────────────────────
+# API keys / credentials. Never commit these.
+backend/.env
+.env
+.env.*
+!.env.example
+!backend/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+backend/dist/
+*.so
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/data/
+backend/.pytest_cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+.coverage
+.coverage.*
+htmlcov/
+.coverage.*
+*.cover
+.hypothesis/
+
+# ── Node / frontend ────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.timestamp
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+nohup.out
+
+# ── Runtime / temp ─────────────────────────────────────────────────────────
+.pids/
+.pid
+*.pid
+*.seed
+*.pid.lock
+.tmp/
+tmp/
+temp/
+/var/
+
+# ── Editor / IDE ───────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.editorconfig-backup
+
+# ── OS cruft ───────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+
+# ── Caches / build artifacts ───────────────────────────────────────────────
+.cache/
+cache/
+*.tsbuildinfo
+.eslintcache
+*.min.js.map
+.coverage.*
+coverage/

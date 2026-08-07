@@ -1,0 +1,927 @@
+{
+  "meta": {
+    "job_id": "6609398db62b",
+    "url": "https://www.semrush.com/",
+    "brand": "Semrush",
+    "generated_at": "2026-08-07T20:10:39.685275+00:00",
+    "provider": {
+      "id": "opencode",
+      "name": "OpenCode",
+      "note": "Web search via OpenCode Responses endpoint"
+    },
+    "search_mode": "AI-answer probing (provider web search)",
+    "crawled_pages": [
+      "https://www.semrush.com/",
+      "https://www.semrush.com/pricing/",
+      "https://enterprise.semrush.com/",
+      "https://www.semrush.com/one/",
+      "https://www.semrush.com/enterprise/",
+      "https://www.semrush.com/mcp/",
+      "https://developer.semrush.com/api/",
+      "https://www.semrush.com/stats/",
+      "https://www.semrush.com/kb/request-demo/",
+      "https://www.semrush.com/features/keyword-research/",
+      "https://www.semrush.com/features/competitor-analysis/",
+      "https://www.semrush.com/features/market-analysis/",
+      "https://www.semrush.com/features/local-seo/",
+      "https://www.semrush.com/features/brand-sentiment/",
+      "https://www.semrush.com/features/backlink-analysis/",
+      "https://www.semrush.com/features/content-marketing/"
+    ],
+    "crawled_count": 16,
+    "crawl_errors": []
+  },
+  "score": {
+    "overall": 79.0,
+    "grade": "B",
+    "grade_blurb": "Good - visible in places, missing in others",
+    "weight_table": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 100.0,
+        "weighted": 35.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 30,
+        "weighted": 9.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 100.0,
+        "weighted": 20.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 100.0,
+        "weighted": 15.0,
+        "skipped": false,
+        "skip_reason": ""
+      }
+    ],
+    "weights": {
+      "presence": 0.35,
+      "answerability": 0.3,
+      "entity": 0.2,
+      "authority": 0.15
+    },
+    "dimensions": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 100.0,
+        "weighted": 35.0,
+        "measured": "7 of 7 queries surfaced the domain (ai_web_search)",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "surfaced in AI answer",
+            "query": "What is AI visibility tracking and how does Semrush measure it?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "What is the best SEO and AI search platform for tracking brand visibility?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How much does Semrush cost for SEO and AI search tracking?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How do I connect Semrush data to ChatGPT, Claude, or Perplexity?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "Semrush vs other keyword research tools: which has the largest keyword database?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How can I use the Semrush API to build custom SEO and competitor analysis tools?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "What is Semrush?",
+            "points": 0,
+            "appeared": true
+          }
+        ]
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 30,
+        "weighted": 9.0,
+        "measured": "7 finding(s), 70 points deducted.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "Turn the FAQ label into real question-and-answer blocks",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Turn the FAQ label into real question-and-answer blocks"
+          },
+          {
+            "title": "Present plan information in a semantic comparison table",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Present plan information in a semantic comparison table"
+          },
+          {
+            "title": "Separate homepage statistics into clean, quotable elements",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Separate homepage statistics into clean, quotable elements"
+          },
+          {
+            "title": "Add consistent Organization and WebSite structured data across key domains",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add consistent Organization and WebSite structured data across key domains"
+          },
+          {
+            "title": "Publish an XML sitemap and reference it in robots.txt",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Publish an XML sitemap and reference it in robots.txt"
+          },
+          {
+            "title": "Add methodology, dates, and source context to major data claims",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add methodology, dates, and source context to major data claims"
+          },
+          {
+            "title": "Reconcile conflicting database-size claims",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Reconcile conflicting database-size claims"
+          }
+        ]
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 100.0,
+        "weighted": 20.0,
+        "measured": "No issues found in this dimension.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": []
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 100.0,
+        "weighted": 15.0,
+        "measured": "No issues found in this dimension.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": []
+      }
+    ],
+    "how_calculated": "Presence = measured query hit-rate. Other dimensions start at 100 and lose deterministic points per finding (critical=25, major=12, minor=5, info=1). Overall = weighted average of non-skipped dimensions (weights: presence 35%, answerability 30%, entity 20%, authority 15%)."
+  },
+  "presence": [
+    {
+      "query": "What is AI visibility tracking and how does Semrush measure it?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "AI visibility tracking monitors how often and how prominently a brand is mentioned, recommended, or cited in AI-generated answers across platforms such as ChatGPT, Gemini, and Google AI. Semrush measures it with its AI Visibility Toolkit, using prompt/response data to detect mentions and citations and combining topic coverage with mention consistency into a 0\u2013100 score.",
+      "mention_quote": "Semrush measures it with its AI Visibility Toolkit, using prompt/response data to detect mentions and citations and combining topic coverage with mention consistency into a 0\u2013100 score.",
+      "cited_urls": [
+        "https://www.semrush.com/kb/1607-semrush-ai-visibility-data",
+        "https://www.semrush.com/kb/1596-visibility-overview-report",
+        "https://www.semrush.com/solutions/ai-visibility/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "What is the best SEO and AI search platform for tracking brand visibility?",
+      "intent": "commercial",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Semrush is the best all-in-one choice for SEO and AI search visibility. Its AI Visibility Toolkit tracks brand mentions, citations, sentiment, share of voice, competitors, and visibility across major AI platforms, while its broader platform covers traditional SEO research, auditing, and reporting.",
+      "mention_quote": "Semrush is the best all-in-one choice for SEO and AI search visibility.",
+      "cited_urls": [
+        "https://www.semrush.com/features/brand-sentiment/",
+        "https://toolchase.com/blog/best-ai-seo-tools-2026/",
+        "https://aitoolrush.com/reviews/semrush-ai-visibility-toolkit"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How much does Semrush cost for SEO and AI search tracking?",
+      "intent": "pricing",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Semrush\u2019s SEO + AI Search plans start at $139/month monthly, or $117.33/month when billed annually. The Starter plan is $199/month ($165.17 annually billed), Pro+ is $299 ($248.17 annually billed), and Advanced is $549 ($455.67 annually billed). A free plan is also available.",
+      "mention_quote": "Semrush\u2019s SEO + AI Search plans start at $139/month monthly, or $117.33/month when billed annually.",
+      "cited_urls": [
+        "https://www.semrush.com/pricing/seo-ai-search/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How do I connect Semrush data to ChatGPT, Claude, or Perplexity?",
+      "intent": "how-to",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Use Semrush\u2019s official MCP integration. In ChatGPT, open Settings \u2192 Apps, select Semrush, click Connect, and approve access; then tag @Semrush. In Claude, add Semrush under Customize \u2192 Connect your apps. In Perplexity, go to Customize \u2192 Connectors and add Semrush; a paid account is required.",
+      "mention_quote": "Use Semrush\u2019s official MCP integration.",
+      "cited_urls": [
+        "https://developer.semrush.com/api/v3/introduction/semrush-mcp/",
+        "https://www.semrush.com/kb/1619-getting-started-with-mcp",
+        "https://help.openai.com/en/articles/11487775-connectors-in"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "Semrush vs other keyword research tools: which has the largest keyword database?",
+      "intent": "comparison",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Ahrefs appears to have the largest currently published keyword database among major tools: 28.7 billion filtered keywords, versus Semrush\u2019s 28B+ terms. Moz is much smaller at about 1.25 billion. These are vendor-reported figures, so they are not perfectly apples-to-apples.",
+      "mention_quote": "Ahrefs appears to have the largest currently published keyword database among major tools: 28.7 billion filtered keywords, versus Semrush\u2019s 28B+ terms.",
+      "cited_urls": [
+        "https://ahrefs.com/keywords-explorer",
+        "https://www.semrush.com/features/keyword-research/",
+        "https://explodingtopics.com/blog/ahrefs-vs-semrush-vs-moz"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How can I use the Semrush API to build custom SEO and competitor analysis tools?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Use Semrush\u2019s API as a backend data layer: obtain an API key, choose the relevant API, and call report endpoints with parameters such as database, domain, keyword, device, and date. Parse the CSV or JSON responses into your application, then combine keyword, backlink, traffic, and competitor data into dashboards, alerts, reports, or automated workflows.",
+      "mention_quote": "Use Semrush\u2019s API as a backend data layer: obtain an API key, choose the relevant API, and call report endpoints with parameters such as database, domain, keyword, device, and date.",
+      "cited_urls": [
+        "https://developer.semrush.com/api/v3/get-started/api-access/",
+        "https://developer.semrush.com/api/v3/introduction/semrush-api-overview/",
+        "https://developer.semrush.com/api/v4/seo/overview/",
+        "https://developer.semrush.com/api/v4/introduction/available-data/",
+        "https://developer.semrush.com/api/v3/seo/tutorials/analytics-api/",
+        "https://developer.semrush.com/api/v4/",
+        "https://developer.semrush.com/api/v3/seo/keyword-reports/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "What is Semrush?",
+      "intent": "branded",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Semrush is a digital marketing and brand-visibility platform that helps businesses improve SEO, monitor AI-search visibility, research keywords, analyze competitors, audit websites, track backlinks and rankings, and manage content and paid-search campaigns.",
+      "mention_quote": "Semrush is a digital marketing and brand-visibility platform that helps businesses improve SEO, monitor AI-search visibility, research keywords, analyze competitors, audit websites, track backlinks and rankings, and manage content and paid-search campaigns.",
+      "cited_urls": [
+        "https://www.semrush.com/kb/995-what-is-semrush",
+        "https://business.adobe.com/products/semrush.html",
+        "https://en.wikipedia.org/wiki/Semrush"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    }
+  ],
+  "summary": "Semrush has strong product clarity, substantial first-party statistics, and unusually direct integration with AI assistants. Its GEO visibility is held back by inconsistent structured data, absent sitemap discovery, weak FAQ extraction, fragmented statistics, and unsupported or conflicting data claims.",
+  "strengths": [
+    {
+      "title": "Strong AI-oriented product positioning",
+      "evidence": "https://www.semrush.com/mcp/ \u2014 \u201cAccess Semrush's full dataset right from ChatGPT, Claude, Perplexity, Gemini, and more. Ask in natural language. Get clear, data-backed answers.\u201d"
+    },
+    {
+      "title": "Many pages contain concise, extractable claims and statistics",
+      "evidence": "https://www.semrush.com/one/ \u2014 \u201c28M Trusted by 28M+ marketers worldwide\u201d; \u201c35% Chosen by 35% of the Fortune 500\u201d; \u201c21 Awarded best SEO software suite 21 times\u201d."
+    },
+    {
+      "title": "Enterprise pages use comparatively strong entity markup",
+      "evidence": "https://enterprise.semrush.com/ \u2014 the crawl found \u201cOrganization,\u201d \u201cWebSite,\u201d \u201cWebPage,\u201d and \u201cBreadcrumbList\u201d schema types."
+    }
+  ],
+  "brand_knowledge": {
+    "known": true,
+    "what_you_know": "Semrush is a publicly traded SaaS company best known for digital marketing and competitive-intelligence tools, including SEO keyword research, rank tracking, backlink analysis, site audits, content marketing, advertising research, and social media features. It was formerly known as SEMrush and is associated with Semrush Holdings, Inc. (NYSE: SEMR).",
+    "confident": true
+  },
+  "findings": [
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Turn the FAQ label into real question-and-answer blocks",
+      "evidence": {
+        "page": "https://www.semrush.com/features/keyword-research/",
+        "quote": "Learn how to do keyword research\nFAQ\nKeyword research is the process of finding the exact words and phrases people type into search engines.",
+        "found": "The page has an FAQ heading and one explanatory sentence, but the crawl detected 0 FAQ pairs.",
+        "should_be": "Add multiple visible questions with concise answers and FAQPage structured data."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Add this visible HTML near the FAQ heading: <section aria-labelledby=\"faq-heading\"><h2 id=\"faq-heading\">Frequently asked questions</h2><h3>What is keyword research?</h3><p>Keyword research is the process of finding the words and phrases people use in search engines.</p><h3>How does Semrush help with keyword research?</h3><p>Semrush helps you discover valuable keywords, assess competition, find keyword gaps, and track rankings across search surfaces.</p></section>. Add matching FAQPage JSON-LD with the same questions and answers.",
+      "jargon": "FAQPage is structured data that identifies question-and-answer content for search engines."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "minor",
+      "title": "Present plan information in a semantic comparison table",
+      "evidence": {
+        "page": "https://www.semrush.com/pricing/",
+        "quote": "Plans & Pricing\nStart with what you need. Add more as you grow.\n- SEOFor freelancers and small businesses looking to grow their online visibility with SEO",
+        "found": "Pricing is presented as headings and bullet lists; the crawl detected no HTML tables.",
+        "should_be": "Use a real HTML table with one row per plan, consistent columns, prices, limits, and feature comparisons."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Add a semantic table such as: <table><caption>Semrush plan comparison</caption><thead><tr><th>Plan</th><th>Monthly price</th><th>Websites</th><th>Daily keywords</th><th>AI visibility</th></tr></thead><tbody><tr><th>SEO</th><td>$117.33 billed annually</td><td>5</td><td>500</td><td>Included</td></tr><tr><th>Starter</th><td>$165.17 billed annually</td><td>5</td><td>500</td><td>50 prompts daily</td></tr></tbody></table>.",
+      "jargon": "Semantic HTML uses elements such as table, caption, th, and td to explain content structure to machines."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "minor",
+      "title": "Separate homepage statistics into clean, quotable elements",
+      "evidence": {
+        "page": "https://www.semrush.com/",
+        "quote": "- \n          28BKeywords More keywords means more ways to win.\n- \n          43TBacklinks Build credibility with the largest database on the market.",
+        "found": "The homepage contains numeric claims, but the crawl output concatenates values and labels such as \u201c28BKeywords.\u201d",
+        "should_be": "Render each statistic as a separate number, label, and supporting sentence in readable text."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Replace concatenated stat markup with: <section aria-label=\"Semrush data statistics\"><div><strong>28B</strong><span>keywords</span><p>More keywords means more ways to win.</p></div><div><strong>43T</strong><span>backlinks</span><p>Build credibility with the largest database on the market.</p></div></section>.",
+      "jargon": "Quotable means an AI can copy a complete claim without reconstructing fragmented page text."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add consistent Organization and WebSite structured data across key domains",
+      "evidence": {
+        "page": "https://www.semrush.com/",
+        "quote": "The leading platform to grow and measure brand visibility across every digital channel.",
+        "found": "The homepage has Corporation schema, while many sampled pages have no schema. The enterprise subdomain has Organization, WebSite, WebPage, and BreadcrumbList schema.",
+        "should_be": "Use consistent Organization, WebSite, WebPage, BreadcrumbList, and relevant Product or Service schema on the main site and important product pages."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Add this JSON-LD to the shared site template: <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.semrush.com/#organization\",\"name\":\"Semrush\",\"url\":\"https://www.semrush.com/\",\"logo\":\"https://www.semrush.com/path-to-logo.svg\",\"sameAs\":[\"https://www.linkedin.com/company/semrush/\",\"https://www.wikidata.org/\"]}</script>. Add WebSite and WebPage entities referencing the Organization ID.",
+      "jargon": "Structured data is machine-readable JSON-LD that tells search engines what an organization or page represents."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Publish an XML sitemap and reference it in robots.txt",
+      "evidence": {
+        "page": "https://www.semrush.com/",
+        "quote": "Be found everywhere search happens",
+        "found": "Robots.txt allows crawling, but no sitemap was found in the crawl.",
+        "should_be": "Publish a current XML sitemap containing canonical, indexable URLs and reference it from robots.txt."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Create https://www.semrush.com/sitemap.xml with all canonical indexable URLs, then add this line to robots.txt: Sitemap: https://www.semrush.com/sitemap.xml. Submit the sitemap in Google Search Console and Bing Webmaster Tools.",
+      "jargon": "An XML sitemap is a machine-readable URL list that helps crawlers discover important pages."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add methodology, dates, and source context to major data claims",
+      "evidence": {
+        "page": "https://www.semrush.com/features/market-analysis/",
+        "quote": "Semrush is built on real data from 200M+ panelists, giving you a real-time view into any market, competitor, or audience across 190+ countries.",
+        "found": "The page makes a substantial first-party data claim but the supplied content includes no publication date, author, methodology link, or external source citation.",
+        "should_be": "State when the data was collected or updated, explain the methodology, identify the responsible team or author, and link to supporting documentation."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Place this disclosure below the claim: <p><strong>Data methodology:</strong> This market analysis uses Semrush panel data from 200M+ panelists across 190+ countries. Data last updated: <time datetime=\"2026-01-15\">January 15, 2026</time>. <a href=\"/kb/market-data-methodology/\">Read the methodology</a>. Reviewed by the Semrush Data Science team.</p>.",
+      "jargon": "Methodology explains how a statistic was collected, calculated, and checked."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Reconcile conflicting database-size claims",
+      "evidence": {
+        "page": "https://developer.semrush.com/api/",
+        "quote": "- 26.4Bkeywords\n- 808Mdomain profiles\n- 43Tbacklinks",
+        "found": "The API page states 26.4B keywords, while the homepage states 28B keywords and the keyword research page states \u201c28 billion.\u201d",
+        "should_be": "Use one current, dated definition for each metric, or explain why product and API counts differ."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "Choose the authoritative current figure and update every page to the same wording, for example: <p>Our database contains <strong>28 billion keywords</strong> as of January 2026. API availability may vary by endpoint and database.</p><p><small>Last updated: January 2026.</small></p>. If 26.4B is still correct for the API, label it explicitly as the API-accessible subset.",
+      "jargon": "A primary source is the organization that owns and produces the underlying data."
+    }
+  ],
+  "fixes": [
+    {
+      "rank": 1,
+      "title": "Turn the FAQ label into real question-and-answer blocks",
+      "fix": "Add this visible HTML near the FAQ heading: <section aria-labelledby=\"faq-heading\"><h2 id=\"faq-heading\">Frequently asked questions</h2><h3>What is keyword research?</h3><p>Keyword research is the process of finding the words and phrases people use in search engines.</p><h3>How does Semrush help with keyword research?</h3><p>Semrush helps you discover valuable keywords, assess competition, find keyword gaps, and track rankings across search surfaces.</p></section>. Add matching FAQPage JSON-LD with the same questions and answers.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "FAQPage is structured data that identifies question-and-answer content for search engines.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 2,
+      "title": "Present plan information in a semantic comparison table",
+      "fix": "Add a semantic table such as: <table><caption>Semrush plan comparison</caption><thead><tr><th>Plan</th><th>Monthly price</th><th>Websites</th><th>Daily keywords</th><th>AI visibility</th></tr></thead><tbody><tr><th>SEO</th><td>$117.33 billed annually</td><td>5</td><td>500</td><td>Included</td></tr><tr><th>Starter</th><td>$165.17 billed annually</td><td>5</td><td>500</td><td>50 prompts daily</td></tr></tbody></table>.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "Semantic HTML uses elements such as table, caption, th, and td to explain content structure to machines.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 3,
+      "title": "Separate homepage statistics into clean, quotable elements",
+      "fix": "Replace concatenated stat markup with: <section aria-label=\"Semrush data statistics\"><div><strong>28B</strong><span>keywords</span><p>More keywords means more ways to win.</p></div><div><strong>43T</strong><span>backlinks</span><p>Build credibility with the largest database on the market.</p></div></section>.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "Quotable means an AI can copy a complete claim without reconstructing fragmented page text.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 4,
+      "title": "Add consistent Organization and WebSite structured data across key domains",
+      "fix": "Add this JSON-LD to the shared site template: <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.semrush.com/#organization\",\"name\":\"Semrush\",\"url\":\"https://www.semrush.com/\",\"logo\":\"https://www.semrush.com/path-to-logo.svg\",\"sameAs\":[\"https://www.linkedin.com/company/semrush/\",\"https://www.wikidata.org/\"]}</script>. Add WebSite and WebPage entities referencing the Organization ID.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "Structured data is machine-readable JSON-LD that tells search engines what an organization or page represents.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 5,
+      "title": "Publish an XML sitemap and reference it in robots.txt",
+      "fix": "Create https://www.semrush.com/sitemap.xml with all canonical indexable URLs, then add this line to robots.txt: Sitemap: https://www.semrush.com/sitemap.xml. Submit the sitemap in Google Search Console and Bing Webmaster Tools.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "An XML sitemap is a machine-readable URL list that helps crawlers discover important pages.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 6,
+      "title": "Add methodology, dates, and source context to major data claims",
+      "fix": "Place this disclosure below the claim: <p><strong>Data methodology:</strong> This market analysis uses Semrush panel data from 200M+ panelists across 190+ countries. Data last updated: <time datetime=\"2026-01-15\">January 15, 2026</time>. <a href=\"/kb/market-data-methodology/\">Read the methodology</a>. Reviewed by the Semrush Data Science team.</p>.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "Methodology explains how a statistic was collected, calculated, and checked.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 7,
+      "title": "Reconcile conflicting database-size claims",
+      "fix": "Choose the authoritative current figure and update every page to the same wording, for example: <p>Our database contains <strong>28 billion keywords</strong> as of January 2026. API availability may vary by endpoint and database.</p><p><small>Last updated: January 2026.</small></p>. If 26.4B is still correct for the API, label it explicitly as the API-accessible subset.",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "A primary source is the organization that owns and produces the underlying data.",
+      "dimension": "answerability"
+    }
+  ],
+  "crawl": {
+    "robots": {
+      "allowed": true,
+      "disallowed_paths": [],
+      "sitemap_urls": [],
+      "error": "Not HTML (text/plain)"
+    },
+    "sitemap": {
+      "found": false,
+      "url_count": 0
+    },
+    "pages": [
+      {
+        "url": "https://www.semrush.com/",
+        "status": 200,
+        "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
+        "word_count": 280,
+        "full_text_chars": 2265,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 1,
+        "schema_types": [
+          "Corporation",
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Be found everywhere search happens"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/pricing/",
+        "status": 200,
+        "title": "SEO & AI Search Plans and Pricing | Semrush",
+        "word_count": 595,
+        "full_text_chars": 3848,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "$117.33",
+          "$165.17",
+          "$248.17",
+          "$455.67",
+          "$0",
+          "$45",
+          "$90",
+          "$10",
+          "$20"
+        ],
+        "tables": 0,
+        "schema_types": [
+          null,
+          null,
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Plans & Pricing"
+        ]
+      },
+      {
+        "url": "https://enterprise.semrush.com/",
+        "status": 200,
+        "title": "Enterprise SEO & AI Search Platform \u2013 Semrush for Enterprise",
+        "word_count": 547,
+        "full_text_chars": 3716,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null,
+          "Organization",
+          "Organization",
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          [
+            "SoftwareApplication",
+            "Product"
+          ],
+          "OfferCatalog"
+        ],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "noindex, nofollow",
+        "h1": [
+          "Scale your brand visibility, everywhere search happens"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/one/",
+        "status": 200,
+        "title": "Semrush One: Win Every Search, From SEO to AI Discovery",
+        "word_count": 436,
+        "full_text_chars": 2863,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "17 years",
+          "7 days",
+          "21 times"
+        ],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Win in search, era after\u00a0era"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/enterprise/",
+        "status": 200,
+        "title": "Enterprise SEO & AI Search Platform \u2013 Semrush for Enterprise",
+        "word_count": 547,
+        "full_text_chars": 3716,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null,
+          "Organization",
+          "Organization",
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          [
+            "SoftwareApplication",
+            "Product"
+          ],
+          "OfferCatalog"
+        ],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "noindex, nofollow",
+        "h1": [
+          "Scale your brand visibility, everywhere search happens"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/mcp/",
+        "status": 200,
+        "title": "Semrush MCP: Connect Semrush with ChatGPT, Claude & Gemini",
+        "word_count": 448,
+        "full_text_chars": 2775,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "index, follow",
+        "h1": [
+          "Live Semrush data in your AI\u00a0assistants"
+        ]
+      },
+      {
+        "url": "https://developer.semrush.com/api/",
+        "status": 200,
+        "title": "Semrush API",
+        "word_count": 130,
+        "full_text_chars": 862,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Your perfect business match"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/stats/",
+        "status": 200,
+        "title": "Statistics",
+        "word_count": 75,
+        "full_text_chars": 850,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": []
+      },
+      {
+        "url": "https://www.semrush.com/kb/request-demo/",
+        "status": 200,
+        "title": "Request a live demo | Semrush",
+        "word_count": 75,
+        "full_text_chars": 850,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Join us for a free demo"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/keyword-research/",
+        "status": 200,
+        "title": "Semrush keyword research | Find keywords worth ranking for",
+        "word_count": 387,
+        "full_text_chars": 2353,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "21 times",
+          "28 billion"
+        ],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Find keywords worth winning"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/competitor-analysis/",
+        "status": 200,
+        "title": "Competitor analysis | Semrush features",
+        "word_count": 503,
+        "full_text_chars": 3337,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "See the strategy behind any competitor\u2019s growth"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/market-analysis/",
+        "status": 200,
+        "title": "Market analysis: Follow your market\u2019s every move | Semrush features",
+        "word_count": 536,
+        "full_text_chars": 3370,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "See the full market landscape before your next move"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/local-seo/",
+        "status": 200,
+        "title": "Local SEO tools for rankings, listings, & reviews | Semrush features",
+        "word_count": 305,
+        "full_text_chars": 1954,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "21 times"
+        ],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Get found by customers in your area"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/brand-sentiment/",
+        "status": 200,
+        "title": "AI brand sentiment & perception analysis | Semrush features",
+        "word_count": 605,
+        "full_text_chars": 3820,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "21 times"
+        ],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Know and control your brand\u2019s AI narrative"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/backlink-analysis/",
+        "status": 200,
+        "title": "Backlink analysis & link building tools | Semrush features",
+        "word_count": 371,
+        "full_text_chars": 2371,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Grow your domain\u2019s authority with backlinks"
+        ]
+      },
+      {
+        "url": "https://www.semrush.com/features/content-marketing/",
+        "status": 200,
+        "title": "Create content with more impact | Semrush Content Toolkit",
+        "word_count": 532,
+        "full_text_chars": 3535,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [
+          null
+        ],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "Create content for more channels with less effort"
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

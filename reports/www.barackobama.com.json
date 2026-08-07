@@ -1,0 +1,689 @@
+{
+  "meta": {
+    "job_id": "86c3ba930bac",
+    "url": "https://www.barackobama.com/",
+    "brand": "barackobama.com",
+    "generated_at": "2026-08-07T20:10:55.561495+00:00",
+    "provider": {
+      "id": "opencode",
+      "name": "OpenCode",
+      "note": "Web search via OpenCode Responses endpoint"
+    },
+    "search_mode": "AI-answer probing (provider web search)",
+    "crawled_pages": [
+      "https://www.barackobama.com/",
+      "https://www.barackobama.com/about/",
+      "https://www.barackobama.com/press/",
+      "https://www.barackobama.com/scheduling/",
+      "https://www.barackobama.com/contact/",
+      "https://www.barackobama.com/greetings/",
+      "https://www.barackobama.com/privacy/"
+    ],
+    "crawled_count": 7,
+    "crawl_errors": []
+  },
+  "score": {
+    "overall": 79.0,
+    "grade": "B",
+    "grade_blurb": "Good - visible in places, missing in others",
+    "weight_table": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 100.0,
+        "weighted": 35.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 30,
+        "weighted": 9.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 100.0,
+        "weighted": 20.0,
+        "skipped": false,
+        "skip_reason": ""
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 100.0,
+        "weighted": 15.0,
+        "skipped": false,
+        "skip_reason": ""
+      }
+    ],
+    "weights": {
+      "presence": 0.35,
+      "answerability": 0.3,
+      "entity": 0.2,
+      "authority": 0.15
+    },
+    "dimensions": [
+      {
+        "dimension": "presence",
+        "label": "AI presence",
+        "weight": 0.35,
+        "score": 100.0,
+        "weighted": 35.0,
+        "measured": "7 of 7 queries surfaced the domain (ai_web_search)",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "surfaced in AI answer",
+            "query": "What does the Office of Barack and Michelle Obama do?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How do I request a written greeting from Barack Obama and Michelle Obama?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How can I invite President Obama or Michelle Obama to speak at my event?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "What is the difference between requesting a greeting and sending a message to Barack and Michelle Obama?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How do I contact the Office of Barack and Michelle Obama?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "How much does it cost to invite Barack Obama or Michelle Obama to an event?",
+            "points": 0,
+            "appeared": true
+          },
+          {
+            "title": "surfaced in AI answer",
+            "query": "Barack Obama official website",
+            "points": 0,
+            "appeared": true
+          }
+        ]
+      },
+      {
+        "dimension": "answerability",
+        "label": "Answerability",
+        "weight": 0.3,
+        "score": 30,
+        "weighted": 9.0,
+        "measured": "7 finding(s), 70 points deducted.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": [
+          {
+            "title": "Add visible FAQ blocks for common questions",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add visible FAQ blocks for common questions"
+          },
+          {
+            "title": "Turn form-only pages into answerable service pages",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Turn form-only pages into answerable service pages"
+          },
+          {
+            "title": "Add descriptive page titles, especially for the homepage",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add descriptive page titles, especially for the homepage"
+          },
+          {
+            "title": "Publish Organization structured data",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Publish Organization structured data"
+          },
+          {
+            "title": "Add structured data to the About page",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add structured data to the About page"
+          },
+          {
+            "title": "Add visible dates and authorship to biographical content",
+            "points": 12,
+            "severity": "major",
+            "finding_title": "Add visible dates and authorship to biographical content"
+          },
+          {
+            "title": "Support key biographical claims with authoritative references",
+            "points": 5,
+            "severity": "minor",
+            "finding_title": "Support key biographical claims with authoritative references"
+          }
+        ]
+      },
+      {
+        "dimension": "entity",
+        "label": "Entity & foundation",
+        "weight": 0.2,
+        "score": 100.0,
+        "weighted": 20.0,
+        "measured": "No issues found in this dimension.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": []
+      },
+      {
+        "dimension": "authority",
+        "label": "Authority & trust",
+        "weight": 0.15,
+        "score": 100.0,
+        "weighted": 15.0,
+        "measured": "No issues found in this dimension.",
+        "skipped": false,
+        "skip_reason": "",
+        "deductions": []
+      }
+    ],
+    "how_calculated": "Presence = measured query hit-rate. Other dimensions start at 100 and lose deterministic points per finding (critical=25, major=12, minor=5, info=1). Overall = weighted average of non-skipped dimensions (weights: presence 35%, answerability 30%, entity 20%, authority 15%)."
+  },
+  "presence": [
+    {
+      "query": "What does the Office of Barack and Michelle Obama do?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "The Office of Barack and Michelle Obama serves as the Obamas\u2019 post-presidential office. It handles public requests such as scheduling, media inquiries, correspondence, and greetings, while sharing information about their work and directing people to the Obama Foundation.",
+      "mention_quote": "",
+      "cited_urls": [
+        "https://barackobama.com/",
+        "https://barackobama.com/about/",
+        "https://www.obamalibrary.gov/about-us/frequently-asked-questions"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How do I request a written greeting from Barack Obama and Michelle Obama?",
+      "intent": "informational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "To request a written greeting from Barack Obama and Michelle Obama, complete the greeting request form on the Office of Barack and Michelle Obama website. Enter the occasion, recipient\u2019s name and address, your contact information, and any notes, then submit the form. For a general message, use the contact form.",
+      "mention_quote": "To request a written greeting from Barack Obama and Michelle Obama, complete the greeting request form on the Office of Barack and Michelle Obama website.",
+      "cited_urls": [
+        "https://barackobama.com/greetings/",
+        "https://barackobama.com/contact/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How can I invite President Obama or Michelle Obama to speak at my event?",
+      "intent": "commercial",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "To invite President Obama or Michelle Obama, use the official scheduling form at https://barackobama.com/scheduling/. Select whom you are inviting and submit your organization, contact, event, audience, location, media, and event details, along with a formal invitation letter in PDF format.",
+      "mention_quote": "To invite President Obama or Michelle Obama, use the official scheduling form at https://barackobama.com/scheduling/.",
+      "cited_urls": [
+        "https://barackobama.com/scheduling/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "What is the difference between requesting a greeting and sending a message to Barack and Michelle Obama?",
+      "intent": "comparison",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "On barackobama.com, requesting a greeting is intended for a written greeting for occasions such as a birth, wedding, or Eagle Scout ceremony. Sending a message is for sharing a personal note directly with Barack or Michelle Obama.",
+      "mention_quote": "On barackobama.com, requesting a greeting is intended for a written greeting for occasions such as a birth, wedding, or Eagle Scout ceremony.",
+      "cited_urls": [
+        "https://barackobama.com/greetings/",
+        "https://barackobama.com/contact/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How do I contact the Office of Barack and Michelle Obama?",
+      "intent": "navigational",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "To contact the Office of Barack and Michelle Obama, use the official contact form at https://barackobama.com/contact/. The form is intended for messages to President Obama and Michelle Obama, and the site recommends using it instead of sending physical mail. For press inquiries, use the press form.",
+      "mention_quote": "To contact the Office of Barack and Michelle Obama, use the official contact form at https://barackobama.com/contact/.",
+      "cited_urls": [
+        "https://barackobama.com/contact/",
+        "https://barackobama.com/press/",
+        "https://www.obama.org/contact/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "How much does it cost to invite Barack Obama or Michelle Obama to an event?",
+      "intent": "pricing",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "There is no publicly posted flat fee for inviting Barack Obama or Michelle Obama; BarackObama.com\u2019s official scheduling page asks organizers to submit event details and an invitation for consideration. Reported speaking-fee benchmarks are about $400,000 for Barack Obama and $200,000 for Michelle Obama, but actual quotes vary by event.",
+      "mention_quote": "There is no publicly posted flat fee for inviting Barack Obama or Michelle Obama; BarackObama.com\u2019s official scheduling page asks organizers to submit event details and an invitation for consideration.",
+      "cited_urls": [
+        "https://barackobama.com/scheduling/",
+        "https://www.axios.com/2017/12/15/exclusive-rent-a-former-president-1513301939",
+        "https://www.washingtonpost.com/lifestyle/style/how-the-obamas-managed-to-become-invisible-in-washington/2018/07/16/c150863c-8606-11e8-8553-a3ce89036c78_story.html"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    },
+    {
+      "query": "Barack Obama official website",
+      "intent": "branded",
+      "mode": "ai_web_search",
+      "appeared": true,
+      "answer_excerpt": "Barack Obama\u2019s official website is the Office of Barack and Michelle Obama at https://barackobama.com/. It shares information about President Obama, Michelle Obama, and their current initiatives. Source: https://barackobama.com/",
+      "mention_quote": "Barack Obama\u2019s official website is the Office of Barack and Michelle Obama at https://barackobama.com/.",
+      "cited_urls": [
+        "https://barackobama.com/"
+      ],
+      "top_results": [],
+      "note": "",
+      "error": ""
+    }
+  ],
+  "summary": "The site is clearly identifiable as the Office of Barack and Michelle Obama and has strong primary-source positioning. Its AI visibility is limited by missing structured data, a blank homepage title, few directly answerable formats, and a lack of visible dates, authorship, and citations.",
+  "strengths": [
+    {
+      "title": "Clear primary-source identity",
+      "evidence": "https://www.barackobama.com/ \u2014 \u201cThe Office of Barack and Michelle Obama\u201d"
+    },
+    {
+      "title": "Dedicated About page contains a direct factual claim",
+      "evidence": "https://www.barackobama.com/about/ \u2014 \u201cBarack H. Obama is the 44th President of the United States.\u201d"
+    },
+    {
+      "title": "The site provides direct official contact pathways",
+      "evidence": "https://www.barackobama.com/contact/ \u2014 \u201cHave a message to share with President Obama or Michelle Obama? Please fill out this form to send a note to them.\u201d"
+    },
+    {
+      "title": "Privacy policy provides an organizational name and data-handling context",
+      "evidence": "https://www.barackobama.com/privacy/ \u2014 \u201cThis Privacy Policy explains how information about you is collected, used and disclosed by The Office of Barack and Michelle Obama (\u201cOBMO\u201d).\u201d"
+    }
+  ],
+  "brand_knowledge": {
+    "known": true,
+    "what_you_know": "barackobama.com is an official website associated with Barack Obama and his political organizations, historically used for campaign communications, fundraising, and grassroots organizing. It is not generally known as a conventional standalone company.",
+    "confident": true
+  },
+  "findings": [
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add visible FAQ blocks for common questions",
+      "evidence": {
+        "page": "https://www.barackobama.com/about/",
+        "quote": "About President Barack Obama\nBarack H. Obama is the 44th President of the United States.",
+        "found": "The About page contains factual prose but the crawl found 0 FAQ pairs.",
+        "should_be": "Add short question-and-answer sections that directly answer common queries about the office and Barack Obama."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<section><h2>Frequently asked questions</h2><h3>Who is Barack Obama?</h3><p>Barack H. Obama is the 44th President of the United States.</p><h3>What is the Office of Barack and Michelle Obama?</h3><p>The Office of Barack and Michelle Obama handles official information, press inquiries, scheduling requests, contact messages, and greeting requests.</p></section>",
+      "jargon": "FAQ means a frequently asked questions section."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "minor",
+      "title": "Turn form-only pages into answerable service pages",
+      "evidence": {
+        "page": "https://www.barackobama.com/scheduling/",
+        "quote": "Scheduling Please fill out this form to invite President Obama or Michelle Obama to appear or speak at your event.",
+        "found": "The Scheduling page is primarily a form with little explanatory content; the crawl found no tables or statistics.",
+        "should_be": "Add a concise explanation of who may submit a request, what information is required, and what happens after submission."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<p>The Office of Barack and Michelle Obama accepts invitations for President Obama or Michelle Obama to appear or speak at events. Please provide your organization, event details, requested participant, and contact information. Submitting this form does not guarantee participation; the office will review the request and contact you if additional information is needed.</p>",
+      "jargon": ""
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add descriptive page titles, especially for the homepage",
+      "evidence": {
+        "page": "https://www.barackobama.com/",
+        "quote": "The Office of Barack and Michelle Obama",
+        "found": "The homepage title is blank in the crawl, although the page visibly identifies itself as \u201cThe Office of Barack and Michelle Obama.\u201d",
+        "should_be": "Give every page a unique, descriptive title that states the organization and the page purpose."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<title>The Office of Barack and Michelle Obama | barackobama.com</title>\n<meta name=\"description\" content=\"Official information from the Office of Barack and Michelle Obama, including press, scheduling, contact, and greeting requests.\">",
+      "jargon": ""
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Publish Organization structured data",
+      "evidence": {
+        "page": "https://www.barackobama.com/",
+        "quote": "Welcome to the Office of Barack and Michelle Obama",
+        "found": "The crawl detected no schema types on the homepage or any of the seven crawled pages.",
+        "should_be": "Add machine-readable Organization data that connects the domain, organization name, logo, and official contact page."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<script type=\"application/ld+json\">\n{\n  \"@context\":\"https://schema.org\",\n  \"@type\":\"Organization\",\n  \"@id\":\"https://www.barackobama.com/#organization\",\n  \"name\":\"The Office of Barack and Michelle Obama\",\n  \"url\":\"https://www.barackobama.com/\",\n  \"description\":\"The official website of the Office of Barack and Michelle Obama.\",\n  \"contactPoint\":{\n    \"@type\":\"ContactPoint\",\n    \"url\":\"https://www.barackobama.com/contact/\",\n    \"contactType\":\"Contact\"\n  }\n}\n</script>",
+      "jargon": "Structured data is hidden machine-readable information that helps search engines identify a page or organization."
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add structured data to the About page",
+      "evidence": {
+        "page": "https://www.barackobama.com/about/",
+        "quote": "Barack H. Obama is the 44th President of the United States.",
+        "found": "The About page contains a clear identity statement, but the crawl detected no Person or Organization schema.",
+        "should_be": "Mark Barack Obama as a Person and connect him to the official organization and biography page."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<script type=\"application/ld+json\">\n{\n  \"@context\":\"https://schema.org\",\n  \"@type\":\"Person\",\n  \"name\":\"Barack H. Obama\",\n  \"jobTitle\":\"44th President of the United States\",\n  \"url\":\"https://www.barackobama.com/about/\",\n  \"worksFor\":{\n    \"@type\":\"Organization\",\n    \"name\":\"The Office of Barack and Michelle Obama\",\n    \"url\":\"https://www.barackobama.com/\"\n  }\n}\n</script>",
+      "jargon": ""
+    },
+    {
+      "dimension": "answerability",
+      "severity": "major",
+      "title": "Add visible dates and authorship to biographical content",
+      "evidence": {
+        "page": "https://www.barackobama.com/about/",
+        "quote": "About President Barack Obama\nBarack H. Obama is the 44th President of the United States.",
+        "found": "The biography has a clear heading and factual statement, but the crawl shows no author, publication date, or update date.",
+        "should_be": "Identify the responsible publisher or author and show when the biography was published or last reviewed."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<p class=\"content-meta\">Published by The Office of Barack and Michelle Obama. Last reviewed: <time datetime=\"YYYY-MM-DD\">Month DD, YYYY</time>.</p>\n<!-- Replace YYYY-MM-DD and Month DD, YYYY with the real review date. -->",
+      "jargon": ""
+    },
+    {
+      "dimension": "answerability",
+      "severity": "minor",
+      "title": "Support key biographical claims with authoritative references",
+      "evidence": {
+        "page": "https://www.barackobama.com/about/",
+        "quote": "Born in Hawaii to a mother from Kansas and a father from Kenya, Obama was raised with help from his grandparents",
+        "found": "The About page presents detailed biographical claims but the provided content shows no source links or citations.",
+        "should_be": "Link important factual claims to authoritative primary or institutional sources, such as presidential archives or official government records."
+      },
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "fix": "<p>For further verification, see the <a href=\"https://www.obamalibrary.gov/\">Barack Obama Presidential Library</a> and the <a href=\"https://obamawhitehouse.archives.gov/\">Obama White House Archives</a>.</p>",
+      "jargon": ""
+    }
+  ],
+  "fixes": [
+    {
+      "rank": 1,
+      "title": "Add visible FAQ blocks for common questions",
+      "fix": "<section><h2>Frequently asked questions</h2><h3>Who is Barack Obama?</h3><p>Barack H. Obama is the 44th President of the United States.</p><h3>What is the Office of Barack and Michelle Obama?</h3><p>The Office of Barack and Michelle Obama handles official information, press inquiries, scheduling requests, contact messages, and greeting requests.</p></section>",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "FAQ means a frequently asked questions section.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 2,
+      "title": "Turn form-only pages into answerable service pages",
+      "fix": "<p>The Office of Barack and Michelle Obama accepts invitations for President Obama or Michelle Obama to appear or speak at events. Please provide your organization, event details, requested participant, and contact information. Submitting this form does not guarantee participation; the office will review the request and contact you if additional information is needed.</p>",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 3,
+      "title": "Add descriptive page titles, especially for the homepage",
+      "fix": "<title>The Office of Barack and Michelle Obama | barackobama.com</title>\n<meta name=\"description\" content=\"Official information from the Office of Barack and Michelle Obama, including press, scheduling, contact, and greeting requests.\">",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 4,
+      "title": "Publish Organization structured data",
+      "fix": "<script type=\"application/ld+json\">\n{\n  \"@context\":\"https://schema.org\",\n  \"@type\":\"Organization\",\n  \"@id\":\"https://www.barackobama.com/#organization\",\n  \"name\":\"The Office of Barack and Michelle Obama\",\n  \"url\":\"https://www.barackobama.com/\",\n  \"description\":\"The official website of the Office of Barack and Michelle Obama.\",\n  \"contactPoint\":{\n    \"@type\":\"ContactPoint\",\n    \"url\":\"https://www.barackobama.com/contact/\",\n    \"contactType\":\"Contact\"\n  }\n}\n</script>",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "Structured data is hidden machine-readable information that helps search engines identify a page or organization.",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 5,
+      "title": "Add structured data to the About page",
+      "fix": "<script type=\"application/ld+json\">\n{\n  \"@context\":\"https://schema.org\",\n  \"@type\":\"Person\",\n  \"name\":\"Barack H. Obama\",\n  \"jobTitle\":\"44th President of the United States\",\n  \"url\":\"https://www.barackobama.com/about/\",\n  \"worksFor\":{\n    \"@type\":\"Organization\",\n    \"name\":\"The Office of Barack and Michelle Obama\",\n    \"url\":\"https://www.barackobama.com/\"\n  }\n}\n</script>",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 6,
+      "title": "Add visible dates and authorship to biographical content",
+      "fix": "<p class=\"content-meta\">Published by The Office of Barack and Michelle Obama. Last reviewed: <time datetime=\"YYYY-MM-DD\">Month DD, YYYY</time>.</p>\n<!-- Replace YYYY-MM-DD and Month DD, YYYY with the real review date. -->",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    },
+    {
+      "rank": 7,
+      "title": "Support key biographical claims with authoritative references",
+      "fix": "<p>For further verification, see the <a href=\"https://www.obamalibrary.gov/\">Barack Obama Presidential Library</a> and the <a href=\"https://obamawhitehouse.archives.gov/\">Obama White House Archives</a>.</p>",
+      "impact": 3,
+      "effort": 3,
+      "priority_score": 1.0,
+      "bucket": "Plan next quarter",
+      "jargon": "",
+      "dimension": "answerability"
+    }
+  ],
+  "crawl": {
+    "robots": {
+      "allowed": true,
+      "disallowed_paths": [],
+      "sitemap_urls": [],
+      "error": "Not HTML (text/plain; charset=utf-8)"
+    },
+    "sitemap": {
+      "found": false,
+      "url_count": 0
+    },
+    "pages": [
+      {
+        "url": "https://www.barackobama.com/",
+        "status": 200,
+        "title": "",
+        "word_count": 40,
+        "full_text_chars": 238,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/about/",
+        "status": 200,
+        "title": "About the office",
+        "word_count": 1410,
+        "full_text_chars": 8297,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [
+          "17 million",
+          "100 million"
+        ],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "About the office"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/press/",
+        "status": 200,
+        "title": "Press Inquiries",
+        "word_count": 560,
+        "full_text_chars": 3992,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "Press Inquiries"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/scheduling/",
+        "status": 200,
+        "title": "Scheduling",
+        "word_count": 595,
+        "full_text_chars": 4261,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "Scheduling"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/contact/",
+        "status": 200,
+        "title": "Contact Us",
+        "word_count": 69,
+        "full_text_chars": 374,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "Contact Us"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/greetings/",
+        "status": 200,
+        "title": "Request a Greeting",
+        "word_count": 559,
+        "full_text_chars": 4099,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": false,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "Request a Greeting"
+        ]
+      },
+      {
+        "url": "https://www.barackobama.com/privacy/",
+        "status": 200,
+        "title": "Privacy Policy",
+        "word_count": 1264,
+        "full_text_chars": 7906,
+        "csr_suspected": false,
+        "faq_pairs": 0,
+        "stats": [],
+        "tables": 0,
+        "schema_types": [],
+        "pub_date": "",
+        "has_author": true,
+        "meta_robots": "",
+        "h1": [
+          "The Office of Barack and Michelle Obama",
+          "Privacy Policy"
+        ]
+      }
+    ]
+  },
+  "errors": []
+}
